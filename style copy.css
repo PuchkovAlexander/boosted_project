@@ -1,0 +1,521 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;              /* выравнивание */
+    max-width: 1440px;        /* по           */
+    margin: 0 auto;    
+    max-width: 100%;
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+
+.header_top{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    height: 29px;
+    width: 1440px;
+    align-items: center;
+}
+.text{
+    font-size: 12px;
+    font-style: normal;
+    color: #FBFBFB;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;  
+    padding-right: 280px;  
+    font: normal;
+}
+
+.nav > li{ 
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+    margin-left: 22px;
+
+}
+.logo_img{
+    display: block;
+    width: 160px;
+    height: 36px;
+    background-image: url("img/logo_img.svg");
+    margin-left: 11px;
+}
+
+.nav > li > a{
+    text-decoration: none;
+    color: #000000;
+}
+.nav > a:hover{
+    color: rgb(224, 106, 26);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 160px;
+    height: 36px;
+    padding-right: 125px;
+}
+.logo_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+}
+.logo_img_right{
+    display: block;
+    width: 17px;
+    height: 17px;
+    color: #000000;
+    background-image: url("img/avatar.svg");
+    margin-right: 11px;
+}
+.logo_img_right_2{
+    display: block;
+    width: 17px;
+    height: 17px;
+    color: #000000;
+    background-image: url("img/cart.svg");
+    margin-right: 21px;
+}
+.page_scooters{
+    display: ;
+    text-align: center;
+    background-image: url("img/scooters.jpg");
+    width: 1440px;
+    height: 810px;
+    
+}
+.page_scooters > h1 {
+    font-weight: 400;
+    line-height: 55px;
+    font-size: 44px;
+    color: #000000;
+}
+.page_scooters > p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+}
+.page_scooters > .button{
+    background: #FF4A32;
+    color: #FFFFFF;
+    line-height: 23px;
+    border-radius: 35px;
+    border: none;
+    font-size: 14px;
+    font-style: normal;
+  
+}
+.page_scooters > .button > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.page_scooters > .button > a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+.scooter_brands{
+    display: flex;
+    justify-content: space-around;
+    height: 83px;
+    background-color: #000000;
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+}
+.brands > li{
+    margin-right: 146px;
+}
+.shop_boards_revs{
+    text-align: center;
+}
+
+.shop_boards_revs > h2{
+    line-height: 36px;
+    font-weight: 400;
+}
+.shop_boards_revs > p{
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.container_pics{
+    display: flex;
+    justify-content: center;
+}
+.container_pics > .pics{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_pics .second_pic{
+    margin-left: 20px;
+}
+.first_pic{
+    background-image: url("img/shop_boards.jpg");
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 580px;
+}
+.second_pic{
+    background-image: url("img/shop_revs.jpg");
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 580px;
+}
+.pics > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.pics > p{
+    color: #FFFFFF;  
+}
+.nav > li > a:hover{
+    color: #FF4A32;
+    transition-duration: 0.3s;
+}
+.pics > a:hover{
+    color: #FF4A32;
+    transition-duration: 0.3s;
+}
+
+.electric_skateboards{
+    text-align: center;
+    background-image: url("img/electric_skateboards.jpg");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 736px;
+    padding-top: 44px;
+    margin-top: 22px;
+
+}
+.electric_skateboards > p{
+    
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.electric_skateboards > h1{
+    font-size: 45px;
+}
+.btn{
+    background-color: #FF4A32;
+    color:#FFFFFF;
+    width: 201px;
+    height: 33px;
+    border-radius: 35px;
+    border-style: none;
+    font-size: 15px;   
+}
+.btn > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.btn > a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+.girl_scooter{
+    display: flex;
+    justify-content: center;
+}
+.first_block{
+    display: block;
+    width: 380px;
+    height: 380px;
+    margin-right: 20px;
+}
+.second_block{
+    display: block;
+    width: 380px;
+    height: 380px;
+    margin-right: 40px;
+}
+.third_block > h3{
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+}
+.third_block > p{
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.third_block > button{
+    background-color: #FF4A32;
+    color: #FFFFFF;
+    border-radius: 35px;
+    width: 101px;
+    height: 33px;
+    font-size: 15px;
+    line-height: 23px;
+    border-style: none;
+}
+.third_block > button > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.third_block > button > a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+.stealth_plus_mini{
+    display: flex;
+    margin-top: 45px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.stealth_plus_mini > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.stealth{
+    background-image: url("img/stealth.jpg");
+    background-repeat: no-repeat;
+    width: 480px;
+    height: 480px;
+}
+.plus{
+    background-image: url("img/plus.jpg");
+    background-repeat: no-repeat;
+    width: 480px;
+    height: 480px;
+}
+.mini{
+    background-image: url("img/mini.jpg");
+    background-repeat: no-repeat;
+    width: 480px;
+    height: 480px;
+}
+
+.stealth > p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+.plus > p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.mini > p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.in_stock{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.in_stock > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;      /* Выравнивал  In Stock по центру*/
+}
+.in_stock > a:hover{
+    color: #FF4A32; 
+}
+.video_clips{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    margin-right: 50px;
+}
+.video_clips > .video{
+    width: 540px;
+    height: 304px;
+}
+.video_clips > .video1{
+    margin-right: 20px;
+}
+.title_h3{
+    font-style: normal;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 66px;
+}
+.all_items{
+    margin-top: 66px;
+}
+.title_h1{
+    text-align: center;
+}
+.items > .item{
+    width: 186px;
+    height: 186px;
+    padding-right: 20px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+}
+.items > .item > a{
+    text-decoration: none;
+    color: #FF4A32;
+}
+.bar{
+    width: 100%;
+    height: 66px;
+    margin-top: 50px;
+    background-color: #FFFFFFE5 90%;
+    box-shadow: 2px 0px 10px rgba(41, 44, 61, 0.34);
+}
+.signs_container{
+    background-color: #000000;
+    width: 1440px;
+    max-width: 100%;
+    height: 308px;
+
+}
+.signs_container > .signs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signs > .sign{
+    text-align: center;
+}
+.signs_container > .signs > .sign > h5{
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+.signs_container > .signs > .sign > p{
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+}
+.img_signs{
+    width: 87px;
+    height: 87px;
+    text-align: center;
+}
+.boosted_usa_footer{
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 329px;
+    background-color: #F7F7F7;
+    padding-top: 50px;
+}
+.boosted_usa_footer > ul{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 20px;
+}
+.boosted_usa_footer > ul{
+    font-size: 13px;
+    line-height: 21px;
+}
+.ul{
+    margin-top: -0.5px;
+}
+.ul > li > a{
+    text-decoration: none;
+    color: #000000;
+}
+.ul > li > a:hover{
+    color:  #FF4A32;
+}
+.list_about_boosted > p{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: start;
+}
+.list_about_boosted > h5{
+    font-size: 19px;
+    text-align: start;
+}
+ul > h5{
+    font-size: 19px;
+}
+.list_about_boosted > a{
+    text-align: start;
+    text-decoration: none;
+    color: #000000;
+}
+.list_about_boosted > a:hover{
+    color: #FF4A32;
+}
+.footer > .footer_text > .brands_list{
+    list-style-type: none;
+}
+.footer_text{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    background-color:  #E5E5E5;
+}
+.brands_list{
+    display: flex;
+    list-style-type: none;
+}
+.footer_text > p{
+    padding-right: 50px;
+    font-size: 13px;
+    line-height: 19px;
+}
+.footer_text > p > a{
+    color: #FF4A32;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 400;
+*/
